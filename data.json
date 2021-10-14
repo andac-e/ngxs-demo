@@ -1,0 +1,40 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "Simyacı",
+      "author": "Paulo Coelho",
+      "price": 10.49,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41CiiSkcbmL._SX319_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "price": 9.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41qI9quGIdL._SX324_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dune",
+      "author": "Frank Herbert",
+      "price": 12,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41LmPEurOOL._SX331_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 4,
+      "name": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "price": 8.5,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41JFqILaXyL._SX326_BO1,204,203,200_.jpg"
+    },
+
+    {
+      "id": 5,
+      "name": "Kumarbaz",
+      "author": "Fyodor Mihayloviç Dostoyevski",
+      "price": 13.25,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41gPnB9o8eL._SX343_BO1,204,203,200_.jpg"
+    }
+  ]
+}

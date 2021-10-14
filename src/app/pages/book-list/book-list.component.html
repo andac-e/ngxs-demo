@@ -1,0 +1,16 @@
+<div>
+  <h1>Book Store</h1>
+  <h2>
+    <span>Book List</span>
+    <a routerLink="/cart">Cart</a>
+  </h2>
+  <div *ngFor="let book of books$ | async" class="book">
+    <img src="{{ book.image }}" alt="{{ book.name }}" />
+    <div>
+      <h4>Name: {{ book.name }}</h4>
+      <p>Author: {{ book.author }}</p>
+      <p>Price: {{ book.price | currency: 'USD' }}</p>
+      <button (click)="addToCart(book)">Add to Cart</button>
+    </div>
+  </div>
+</div>

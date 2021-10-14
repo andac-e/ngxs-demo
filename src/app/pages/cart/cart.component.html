@@ -1,0 +1,16 @@
+<div>
+    <h1>Cart</h1>
+    <h2>
+      <span>Book List</span>
+      <a routerLink="/cart">Cart</a>
+    </h2>
+    <div *ngFor="let item of cart$ | async" class="book">
+      <img src="{{ item.book.image }}" alt="{{ item.book.name }}" />
+      <div>
+        <h4>Name: {{ item.book.name }}</h4>
+        <p>Author: {{ item.book.author }}</p>
+        <p>Price: {{ item.book.price | currency: 'USD' }}</p>
+        <button (click)="removeFromCart(item.book)">Remove Cart</button>
+      </div>
+    </div>
+  </div>
